@@ -29,11 +29,10 @@ class School
       puts "#{@roster[student_grade]} not found"
     end
   end 
-  
+  end
   def sort
     return @roster.sort
   end
-  
 end
 end
 end
