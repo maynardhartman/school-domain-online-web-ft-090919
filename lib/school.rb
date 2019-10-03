@@ -31,7 +31,7 @@ class School
   end 
   end
   def sort
-    @ret_sort = @roster.sort { |number, word| 
+    @ret_sort = @roster.sort_by { |number, word| 
     }
   end
   
