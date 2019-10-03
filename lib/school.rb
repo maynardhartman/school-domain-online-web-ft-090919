@@ -34,7 +34,7 @@ class School
     @ret_sort = @roster.sort { |number, word| 
     }
   end
+  
   end
-end
 end
 end
