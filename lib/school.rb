@@ -31,7 +31,8 @@ class School
   end 
   end
   def sort
-    return @roster.sort
+    @ret_sort = @roster.sort
+    @ret_sort
   end
 end
 end
