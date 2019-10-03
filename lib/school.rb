@@ -36,9 +36,6 @@ class School
        @roster(number) => "Bart Simpson"
      end
     }
-       
-      
-    }
   end
   
   end
