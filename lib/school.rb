@@ -33,10 +33,9 @@ class School
   def sort
     @ret_sort = @roster.sort_by { |number, word| 
      if number == 9 then
-       @roster(number) => "Bart Simpson"
+       @roster[number] => "Bart Simpson"
      end
     }
   end
-  
   end
 end
